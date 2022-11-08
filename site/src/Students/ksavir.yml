@@ -1,0 +1,90 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kevin
+    last_name: Rivas
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: kevinsrr2011@gmail.com #optional
+    phone: +56 9 99037471 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/kevin-rivas-7452137b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ksavir
+    
+    twitter: kevinsavir #optional
+   
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Programacion
+
+      - item: Futbol
+
+      - item: Musica
+
+# Your previous education
+education:
+    - degree: Ingeniero Quimico
+      university: Universidad Rafael Urdaneta
+      # optional
+     
+      time: 2011 - 2016
+      details: |
+        Carrera universitaria en la cual aprendi procesos quimicos, refinacion de petroleo, diseño de plantas entre otros.
+        
+
+    - degree: desarrolladora full-stack
+      academy: 4Geeks Academy
+    # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: mayo-2022 - octubre-2022
+      details: |
+        Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+        que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+        React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+        el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    
+    details: 
+     
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+    Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    Blog de Star Wars: Blog donde se pueden visualizar personajes, planetas y vehiculos de Star wars traidos desde una API publica
+    tecnologias: React, hooks, Css, html, ccs, Git, Bootstrap.
+
+    Cacha el Cambio: Aplicacion donde se puede realizar compracion entre distintas casas de cambio ubicadas en Santiago de Chile, los datos son extraidos atraves de Scraping.
+    tecnologia: React, Flux, Beautiful Soup, Python , Flask, SqlAlchemy, Jwt, Git, boostrap.
+ 
